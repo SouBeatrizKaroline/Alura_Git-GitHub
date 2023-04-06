@@ -72,3 +72,20 @@ https://www.alura.com.br/artigos/escrever-bom-readme
 
 https://docs.github.com/pt/enterprise-server@3.2/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+git log --oneline
+git restore --source versão
+
+git log --oneline
+git log -p
+git log --author="user_name"
+git log --since=1.month.ago --until=1.day.ago
+git log --pretty="format:%h %s"
+
+git log --pretty="format:%h %s"
+git clone -branch new_feature <repositorio>
+
+git log --oneline
+git push version
+
+git add .
+git add arquivo.ext
