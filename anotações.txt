@@ -108,3 +108,94 @@ git branch
 git merge title
 
 https://7daysofcode.io/
+
+git init --bare
+Não se esqueça do parâmetro --bare. Caso tenha executado o comando init sem esse parâmetro, execute na sequência o seguinte comando: git config core.bare true.
+
+git remote add local {caminho}
+git clone {caminho} projeto
+
+git remote rename origin local
+
+git push local master
+
+git pull local master
+
+git push origin main
+
+git remote add
+git clone
+git push
+git pull
+
+git merge
+git rebase
+
+git rebase titulo
+git rebase master
+
+git branch
+git checkout
+git add
+
+git commit -m ""
+
+git log
+
+git checkout master
+
+git log --graph
+
+git pull local master
+
+git config --local user.name ""
+
+git reset
+
+git revert
+
+git stash
+
+git stash list
+
+
+
+git status
+git checkout -- index.html
+
+git add index.html
+
+git reset HEAD index.html
+
+
+git add index.html
+git commit -m "Alterando o código"
+git log
+git revert {hash}
+git stash
+
+
+
+git checkout -- <arquivos>
+git reset HEAD <arquivos>
+git checkout -- <arquivos>
+
+git revert
+
+git stash
+git stash list
+git stash apply <numero>
+
+git stash drop <numero>
+git stash pop
+
+git checkout <branch>
+
+
+git diff
+
+
+git tag -a vo.1.o -m "Lançando a primeira versão (BETA)"
+
+git branch -m master main
+git push -u origin main
