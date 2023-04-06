@@ -1,0 +1,74 @@
+git config --local user.name "Seu nome aqui"
+git config --local user.email "seu@email.aqui"
+
+git init
+git status
+git add .
+git commit -m "descrever"
+git config --local user.name "user"
+git log
+git log --help
+
+https://devhints.io/git-log
+
+HEAD: Estado atual do nosso código, ou seja, onde o Git os colocou
+Working tree: Local onde os arquivos realmente estão sendo armazenados e editados
+index: Local onde o Git armazena o que será commitado, ou seja, o local entre a working tree e o repositório Git em si.
+
+https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Altera%C3%A7%C3%B5es-em-Seu-Reposit%C3%B3rio
+
+pwd - caminho
+ls - listar
+mkdir - criar uma pasta
+cd - entrar em algum lugar
+cd .. - sair de algum lugar
+touch - usa para criar um arquivo
+rm - deletar arquivo
+rm -r remover a pasta ou arquivo
+
+P.S: Precisa lembrar de sair da pasta para excluir ela.
+
+Para subir algo no github:
+→ (Colocar o projeto na área de preparação) Após criar a pasta que vai subir, dar o comando “git init” para o git começar a “observar”.
+→ Criar o arquivo dentro da pasta (ex: touch index.html)
+→ Comando “ls -a” para achar arquivos ocultos (no caso,  o index.html)
+→ Com o “git status” poderemos ver o status em qualquer momento.
+→ Se o arquivo ficar vermelho, é porque precisa usar o “git add . “ para salvar ele.
+→ “git commit -m “nome-no-github” 
+→ “git log” para verificar os commits e alterações
+→ Após isso, criar repositório no GitHub.
+
+Após subir o projeto no GitHub: 
+
+→ copiar o link
+no git → git remote add origin [https://github.com/](https://github.com/)<seuLogin>/<seuRepo>.git   - Link do repositório local para o repositório remoto
+
+git remote -v    Verificando o link do repositório remoto
+git remote rm origin (para apagar o repo usado atualmente)
+→ git push -u origin master (para subir no github)
+
+para subir: git add . / git commit -m “alteração” / git push -u origin main
+
+
+.gitignore
+
+Que um commit é a forma de salvar um estado ou versão do nosso código;
+Como adicionar arquivos para serem commitados com git add;
+Como commitar arquivos, utilizando o comando git commit;
+Como verificar o histórico de commits, através do git log e algumas de suas opções:
+git log --oneline
+git log -p
+git log --pretty="parametros de formatação"
+Como fazer o Git não monitorar arquivos, através do .gitignore
+Que não devemos realizar commit, ou seja, salvar um estado, da nossa aplicação que não esteja funcionando.
+
+git remote
+git remote add local
+git remote -v
+
+git remote add local **********
+
+https://www.alura.com.br/artigos/escrever-bom-readme
+
+https://docs.github.com/pt/enterprise-server@3.2/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
