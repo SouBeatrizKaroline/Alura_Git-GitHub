@@ -89,3 +89,22 @@ git push version
 
 git add .
 git add arquivo.ext
+
+git restore
+Parte de restauração de arquivos e do projeto, voltando para um estado anterior através do git restore;
+
+git add
+Adicionar os arquivos que queremos para o próximo commit através do git add.
+
+
+git checkout -b desenvolvimento
+
+git switch main
+
+git push origin desenvolvimento
+
+git branch
+
+git merge title
+
+https://7daysofcode.io/
