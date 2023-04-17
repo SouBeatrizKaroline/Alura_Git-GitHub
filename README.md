@@ -2,9 +2,9 @@
 
 > Git e GitHub
 
-- Documentação Git: https://git-scm.com/docs/git/pt_BR
+- [🔗 Documentação Git](https://git-scm.com/docs/git/pt_BR)
 
-- Documentação GitHub: https://docs.github.com/pt
+- [🔗 Documentação GitHub](https://docs.github.com/pt)
 
 ## 🛠 Cursos
 
